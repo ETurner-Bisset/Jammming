@@ -5,13 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
+            "type": "chrome",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launch Chrome against localhost",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/src/Components/App1/App.js"
+            "url": "http://loalhost3000",
+            "webRoot": "${workspaceFolder}/src/Components/App1/App.js"
         }
     ]
 }
